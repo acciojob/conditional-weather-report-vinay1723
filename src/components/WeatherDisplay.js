@@ -1,8 +1,6 @@
 import React from "react";
 
-export default function WeatherDisplay(props) {
-  const { temperature, conditions } = props;
-
+export default function WeatherDisplay({ temperature, conditions }) {
   return (
     <div>
       <p>
